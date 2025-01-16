@@ -1,0 +1,17 @@
+.about-container {
+  text-align: center; /* Pusatkan semua elemen */
+  margin: 20px;
+  padding: 20px;
+}
+
+.image-wrapper {
+  margin-bottom: 20px; /* Tambahkan jarak antara gambar dan teks */
+}
+
+.profile-image {
+  width: 150px; /* Ukuran gambar */
+  height: 150px;
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  border: 3px solid #adb1ad; /* Tambahkan border */
+  object-fit: cover; /* Pastikan gambar tetap proporsional */
+}

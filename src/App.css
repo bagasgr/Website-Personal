@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #0b0b0c;
+    padding: 20px;
+    color: white;
+  }
+
+
+  h1, p {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    margin: 20px 0;
+  }
+  
+  .profile-image {
+    width: 250px;  /* Ukuran gambar */
+    height: auto;   /* Menjaga proporsi gambar */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-image {
+      width: 200px;  /* Ukuran gambar lebih kecil untuk perangkat mobile */
+    }
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: center; /* Untuk menempatkan tombol di tengah */
+    gap: 20px; /* Memberikan jarak antar tombol */
+    margin-top: 20px; /* Memberikan jarak dari elemen di atas */
+  }
+  
+  .about-button,
+  .contact-button {
+    background-color: #adb1ad;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Animasi saat hover */
+  }
+  
+  .about-button:hover,
+  .contact-button:hover {
+    background-color: #f3f3f3;
+    color: #333; /* Tambahkan warna teks saat hover */
+  }
